@@ -2,7 +2,7 @@ import socket
 import argparse
 from concurrent.futures import ThreadPoolExecutor
 
-parser = argparse.ArgumentParser(description="argument parser")
+parser = argparse.ArgumentParser(description="port scanner")
 parser.add_argument("target", help="the IP address or hostname to scan")
 
 parser.add_argument("-p", "--ports", default="1-1024",
